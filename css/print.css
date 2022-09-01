@@ -1,0 +1,40 @@
+/* Not visible to print */
+
+#nav-doc {
+    display: none;
+}
+
+/* Visible to print */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+    font-weight: bold;  
+    text-decoration: underline;
+}
+
+.article__description p {
+    text-indent: 1em;
+}
+
+.type-table {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border: 4px solid black;
+}
+
+th {
+    border: 3px solid black;
+    background-color: #aaa; 
+}
+
+td, tr {
+    border: 3px solid black;
+    background-color: #ccc; 
+} 
